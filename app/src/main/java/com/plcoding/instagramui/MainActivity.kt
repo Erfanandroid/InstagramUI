@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ProfileScreen()
             println("Hello Instagram")
+            println("This is my Instagram Ui")
         }
     }
 }
