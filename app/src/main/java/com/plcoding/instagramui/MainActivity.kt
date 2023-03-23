@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ProfileScreen()
+            println("Hello Instagram")
         }
     }
 }
